@@ -1,0 +1,33 @@
+.hero-image {
+    /* The image used */
+    background-image: url("../img/space3.png");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
+}
+/* //list-style-image */
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/space.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: center;
+}
+#background {
+  background-color: black;
+}
+
+.text-color {
+  color: black;
+  text-shadow: white 0.3em 0.3em 0.3em
+
+};
